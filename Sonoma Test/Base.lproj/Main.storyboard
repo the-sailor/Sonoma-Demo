@@ -32,11 +32,11 @@
                                     <rect key="frame" x="46" y="153" width="315" height="113"/>
                                 </variation>
                             </label>
-                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cQR-ru-c35">
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="cQR-ru-c35">
                                 <rect key="frame" x="0.0" y="28" width="600" height="44"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="20" width="400" height="44"/>
+                                    <rect key="frame" x="0.0" y="20" width="319" height="44"/>
                                 </variation>
                             </searchBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yem-NN-iwF">
@@ -44,8 +44,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <state key="normal" title="Make A Crash"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="94" y="469" width="218" height="97"/>
+                                    <rect key="frame" x="91" y="427" width="218" height="97"/>
                                 </variation>
+                                <connections>
+                                    <action selector="crashApp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wek-CV-TDv"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -62,6 +65,10 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="buttonCrash" destination="yem-NN-iwF" id="tsk-Yu-EVh"/>
+                        <outlet property="crashButton" destination="yem-NN-iwF" id="PAb-Yy-qX8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
