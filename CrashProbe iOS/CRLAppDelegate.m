@@ -28,10 +28,12 @@
 @import SonomaCore;
 @import SonomaAnalytics;
 @import SonomaCrashes;
-
+booms errors
 @implementation CRLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+
+lets make errors
 {
     [SNMSonoma start:@"5505d5a0-4a17-446a-8e0d-7834b5f56bba" withFeatures:@[[SNMAnalytics class], [SNMCrashes class]]];
   return YES;
