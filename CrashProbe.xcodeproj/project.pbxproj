@@ -23,18 +23,9 @@
 		1ECAB6F01922B1C70005D14E /* 144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6EA1922B1C70005D14E /* 144x144.png */; };
 		1ECAB6F21922B49D0005D14E /* 80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6F11922B49D0005D14E /* 80x80.png */; };
 		1ECAB6F41922B4A30005D14E /* 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6F31922B4A30005D14E /* 120x120.png */; };
-		D86E4D1D1DA5CB4100F80F97 /* SonomaCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86E4D1A1DA5CB4100F80F97 /* SonomaCrashes.framework */; };
-		D86E4D1E1DA5CB4100F80F97 /* SonomaCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86E4D1A1DA5CB4100F80F97 /* SonomaCrashes.framework */; };
-		D86E4D1F1DA5CB4100F80F97 /* SonomaCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86E4D1A1DA5CB4100F80F97 /* SonomaCrashes.framework */; };
-		D86E4D201DA5CB4100F80F97 /* SonomaCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86E4D1A1DA5CB4100F80F97 /* SonomaCrashes.framework */; };
-		D86E4D211DA5CB4100F80F97 /* SonomaCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86E4D1B1DA5CB4100F80F97 /* SonomaCore.framework */; };
-		D86E4D221DA5CB4100F80F97 /* SonomaCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86E4D1B1DA5CB4100F80F97 /* SonomaCore.framework */; };
-		D86E4D231DA5CB4100F80F97 /* SonomaCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86E4D1B1DA5CB4100F80F97 /* SonomaCore.framework */; };
-		D86E4D241DA5CB4100F80F97 /* SonomaCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86E4D1B1DA5CB4100F80F97 /* SonomaCore.framework */; };
-		D86E4D251DA5CB4100F80F97 /* SonomaAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86E4D1C1DA5CB4100F80F97 /* SonomaAnalytics.framework */; };
-		D86E4D261DA5CB4100F80F97 /* SonomaAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86E4D1C1DA5CB4100F80F97 /* SonomaAnalytics.framework */; };
-		D86E4D271DA5CB4100F80F97 /* SonomaAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86E4D1C1DA5CB4100F80F97 /* SonomaAnalytics.framework */; };
-		D86E4D281DA5CB4100F80F97 /* SonomaAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86E4D1C1DA5CB4100F80F97 /* SonomaAnalytics.framework */; };
+		3427D67E1DA31A55008EDE7C /* SonomaAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3427D67B1DA31A55008EDE7C /* SonomaAnalytics.framework */; };
+		3427D67F1DA31A55008EDE7C /* SonomaCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3427D67C1DA31A55008EDE7C /* SonomaCore.framework */; };
+		3427D6801DA31A55008EDE7C /* SonomaCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3427D67D1DA31A55008EDE7C /* SonomaCrashes.framework */; };
 		FA43921A170F134600801CAB /* CRLFakeCXXClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA439219170F134600801CAB /* CRLFakeCXXClass.mm */; };
 		FAAC52E71A030B9E00451D90 /* CRLCrashSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC52E61A030B9E00451D90 /* CRLCrashSwift.swift */; };
 		FAB374D116DBEAF00039B8AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB374D016DBEAF00039B8AE /* main.m */; };
@@ -232,9 +223,9 @@
 		1ECAB6EA1922B1C70005D14E /* 144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 144x144.png; sourceTree = "<group>"; };
 		1ECAB6F11922B49D0005D14E /* 80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80x80.png; sourceTree = "<group>"; };
 		1ECAB6F31922B4A30005D14E /* 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120x120.png; sourceTree = "<group>"; };
-		D86E4D1A1DA5CB4100F80F97 /* SonomaCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SonomaCrashes.framework; sourceTree = "<group>"; };
-		D86E4D1B1DA5CB4100F80F97 /* SonomaCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SonomaCore.framework; sourceTree = "<group>"; };
-		D86E4D1C1DA5CB4100F80F97 /* SonomaAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SonomaAnalytics.framework; sourceTree = "<group>"; };
+		3427D67B1DA31A55008EDE7C /* SonomaAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SonomaAnalytics.framework; sourceTree = "<group>"; };
+		3427D67C1DA31A55008EDE7C /* SonomaCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SonomaCore.framework; sourceTree = "<group>"; };
+		3427D67D1DA31A55008EDE7C /* SonomaCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SonomaCrashes.framework; sourceTree = "<group>"; };
 		FA4391E4170F113B00801CAB /* CrashLib-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrashLib-iOS-Info.plist"; sourceTree = "<group>"; };
 		FA4391E6170F113B00801CAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA4391E8170F113B00801CAB /* CrashLib-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrashLib-iOS-Prefix.pch"; sourceTree = "<group>"; };
@@ -329,9 +320,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D86E4D221DA5CB4100F80F97 /* SonomaCore.framework in Frameworks */,
-				D86E4D1E1DA5CB4100F80F97 /* SonomaCrashes.framework in Frameworks */,
-				D86E4D261DA5CB4100F80F97 /* SonomaAnalytics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +328,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FACDBAB3170F0BB60059F0A7 /* Cocoa.framework in Frameworks */,
-				D86E4D1D1DA5CB4100F80F97 /* SonomaCrashes.framework in Frameworks */,
-				D86E4D251DA5CB4100F80F97 /* SonomaAnalytics.framework in Frameworks */,
-				D86E4D211DA5CB4100F80F97 /* SonomaCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,10 +336,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAE024071A0322C3006CC3EE /* CrashLibiOS.framework in Frameworks */,
-				D86E4D281DA5CB4100F80F97 /* SonomaAnalytics.framework in Frameworks */,
-				D86E4D201DA5CB4100F80F97 /* SonomaCrashes.framework in Frameworks */,
-				D86E4D241DA5CB4100F80F97 /* SonomaCore.framework in Frameworks */,
+				3427D67E1DA31A55008EDE7C /* SonomaAnalytics.framework in Frameworks */,
+				3427D67F1DA31A55008EDE7C /* SonomaCore.framework in Frameworks */,
 				1E77329B189B184800EB3F5A /* Foundation.framework in Frameworks */,
+				3427D6801DA31A55008EDE7C /* SonomaCrashes.framework in Frameworks */,
 				1E77329A189B184200EB3F5A /* UIKit.framework in Frameworks */,
 				1E773298189B183B00EB3F5A /* SystemConfiguration.framework in Frameworks */,
 			);
@@ -364,10 +349,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D86E4D1F1DA5CB4100F80F97 /* SonomaCrashes.framework in Frameworks */,
-				D86E4D271DA5CB4100F80F97 /* SonomaAnalytics.framework in Frameworks */,
 				FACDBAF1170F0DD60059F0A7 /* CrashLib.framework in Frameworks */,
-				D86E4D231DA5CB4100F80F97 /* SonomaCore.framework in Frameworks */,
 				FAF9BCB916D2924500C8BB7D /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,16 +374,6 @@
 				1E1789E9189B15CF00CE4C53 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D86E4D191DA5CB1B00F80F97 /* Vendors */ = {
-			isa = PBXGroup;
-			children = (
-				D86E4D1A1DA5CB4100F80F97 /* SonomaCrashes.framework */,
-				D86E4D1B1DA5CB4100F80F97 /* SonomaCore.framework */,
-				D86E4D1C1DA5CB4100F80F97 /* SonomaAnalytics.framework */,
-			);
-			path = Vendors;
 			sourceTree = "<group>";
 		};
 		FA4391E3170F113B00801CAB /* iOS Supporting Files */ = {
@@ -533,7 +505,6 @@
 		FAF9BCAC16D2924500C8BB7D = {
 			isa = PBXGroup;
 			children = (
-				D86E4D191DA5CB1B00F80F97 /* Vendors */,
 				FACDBAB8170F0BB60059F0A7 /* CrashLib */,
 				1E1789E6189B15CF00CE4C53 /* CrashLib iOS Tests */,
 				FAF9BCBE16D2924500C8BB7D /* CrashProbe */,
@@ -562,6 +533,9 @@
 				1E773299189B184200EB3F5A /* UIKit.framework */,
 				1E773297189B183B00EB3F5A /* SystemConfiguration.framework */,
 				1E773295189B183300EB3F5A /* QuartzCore.framework */,
+				3427D67B1DA31A55008EDE7C /* SonomaAnalytics.framework */,
+				3427D67C1DA31A55008EDE7C /* SonomaCore.framework */,
+				3427D67D1DA31A55008EDE7C /* SonomaCrashes.framework */,
 				1E773293189B182C00EB3F5A /* CoreText.framework */,
 				1E773291189B17E800EB3F5A /* Foundation.framework */,
 				FAF9BCB816D2924500C8BB7D /* Cocoa.framework */,
@@ -1029,7 +1003,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1037,10 +1010,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Vendors",
-				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1084,8 +1053,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1094,10 +1062,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Vendors",
-				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "$(SRCROOT)/CrashLib-iOS/CrashLib-iOS-Info.plist";
@@ -1125,10 +1089,6 @@
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Vendors",
-				);
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrashLib/CrashLib-Prefix.pch";
@@ -1151,10 +1111,6 @@
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Vendors",
-				);
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrashLib/CrashLib-Prefix.pch";
@@ -1177,9 +1133,10 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Vendors",
+					"$(PROJECT_DIR)",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1195,7 +1152,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "CrashLib/CrashLib-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug_DoNotUse;
@@ -1207,10 +1164,11 @@
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Vendors",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrashProbe iOS/CrashProbe iOS-Prefix.pch";
@@ -1224,7 +1182,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "CrashLib/CrashLib-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1395,10 +1353,6 @@
 			buildSettings = {
 				"CLANG_ENABLE_OBJC_ARC[arch=i386]" = NO;
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Vendors",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrashProbe/CrashProbe-Prefix.pch";
 				INFOPLIST_FILE = "CrashProbe/CrashProbe-Info.plist";
@@ -1415,10 +1369,6 @@
 			buildSettings = {
 				"CLANG_ENABLE_OBJC_ARC[arch=i386]" = NO;
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Vendors",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrashProbe/CrashProbe-Prefix.pch";
 				INFOPLIST_FILE = "CrashProbe/CrashProbe-Info.plist";

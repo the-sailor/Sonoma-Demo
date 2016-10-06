@@ -1,8 +1,0 @@
-framework module SonomaCore {
-  umbrella header "SonomaCore.h"
-  
-  export *
-  module * { export * }
-  
-  link framework "Foundation"
-}
