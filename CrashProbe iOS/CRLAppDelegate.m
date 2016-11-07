@@ -34,7 +34,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [SNMSonoma start:@"200337f7-42a5-4811-969e-b97cbc47661e" withFeatures:@[[SNMAnalytics class], [SNMCrashes class]]];
-    Sonoma.setServerUrl("https://in-integration.dev.avalanch.es");
+    [SNMSSonoma setServerUrl:@"https://in-integration.dev.avalanch.es"];
   return YES;
 }
 
