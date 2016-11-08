@@ -3,7 +3,6 @@
  */
 
 #import <Foundation/Foundation.h>
-@class SNMDevice;
 
 @interface SNMErrorReport : NSObject
 
@@ -39,14 +38,34 @@
 @property(nonatomic, readonly, strong) NSDate *appStartTime;
 
 /**
- *  Date and time the error occurred, nil if unknown
+ *  Date and time the crash occurred, nil if unknown
  */
-@property(nonatomic, readonly, strong) NSDate *appErrorTime;
+@property(nonatomic, readonly, strong) NSDate *crashTime;
 
 /**
- *  Device information of the app when it crashed.
+ *  Operation System version string the app was running on when it crashed.
  */
-@property(nonatomic, readonly) SNMDevice *device;
+@property(nonatomic, readonly) NSString *osVersion;
+
+/**
+ *  Operation System build string the app was running on when it crashed.
+ *
+ *  This may be unavailable.
+ */
+@property(nonatomic, readonly) NSString *osBuild;
+
+/**
+ *  CFBundleShortVersionString value of the app that crashed.
+ *
+ *  Can be `nil` if the crash was captured with an older version of the SDK
+ *  or if the app doesn't set the value.
+ */
+@property(nonatomic, readonly) NSString *appVersion;
+
+/**
+ *  CFBundleVersion value of the app that crashed.
+ */
+@property(nonatomic, readonly) NSString *appBuild;
 
 /**
  *  Identifier of the app process that crashed.
