@@ -33,8 +33,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [SNMSonoma start:@"200337f7-42a5-4811-969e-b97cbc47661e" withFeatures:@[[SNMAnalytics class], [SNMCrashes class]]];
     [SNMSonoma setServerUrl:@"https://in-integration.dev.avalanch.es"];
+    [SNMSonoma start:@"200337f7-42a5-4811-969e-b97cbc47661e" withFeatures:@[[SNMAnalytics class], [SNMCrashes class]]];
   return YES;
 }
 
