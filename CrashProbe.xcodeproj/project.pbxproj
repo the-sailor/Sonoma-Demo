@@ -23,6 +23,9 @@
 		1ECAB6F01922B1C70005D14E /* 144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6EA1922B1C70005D14E /* 144x144.png */; };
 		1ECAB6F21922B49D0005D14E /* 80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6F11922B49D0005D14E /* 80x80.png */; };
 		1ECAB6F41922B4A30005D14E /* 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6F31922B4A30005D14E /* 120x120.png */; };
+		D5E466F31DD3B4FB0021F5B4 /* MobileCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E466ED1DD3A87A0021F5B4 /* MobileCenter.framework */; };
+		D5E466F41DD3B4FE0021F5B4 /* MobileCenterAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E466EE1DD3A87A0021F5B4 /* MobileCenterAnalytics.framework */; };
+		D5E466F51DD3B5010021F5B4 /* MobileCenterCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E466EF1DD3A87A0021F5B4 /* MobileCenterCrashes.framework */; };
 		FA43921A170F134600801CAB /* CRLFakeCXXClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA439219170F134600801CAB /* CRLFakeCXXClass.mm */; };
 		FAAC52E71A030B9E00451D90 /* CRLCrashSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC52E61A030B9E00451D90 /* CRLCrashSwift.swift */; };
 		FAB374D116DBEAF00039B8AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB374D016DBEAF00039B8AE /* main.m */; };
@@ -334,6 +337,9 @@
 			files = (
 				FAE024071A0322C3006CC3EE /* CrashLibiOS.framework in Frameworks */,
 				1E77329B189B184800EB3F5A /* Foundation.framework in Frameworks */,
+				D5E466F41DD3B4FE0021F5B4 /* MobileCenterAnalytics.framework in Frameworks */,
+				D5E466F51DD3B5010021F5B4 /* MobileCenterCrashes.framework in Frameworks */,
+				D5E466F31DD3B4FB0021F5B4 /* MobileCenter.framework in Frameworks */,
 				1E77329A189B184200EB3F5A /* UIKit.framework in Frameworks */,
 				1E773298189B183B00EB3F5A /* SystemConfiguration.framework in Frameworks */,
 			);
