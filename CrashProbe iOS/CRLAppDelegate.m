@@ -25,16 +25,19 @@
  */
 
 #import "CRLAppDelegate.h"
-@import SonomaCore;
-@import SonomaAnalytics;
-@import SonomaCrashes;
+@import MobileCenter;
+@import MobileCenterAnalytics;
+@import MobileCenterCrashes;
 
 @implementation CRLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [SNMSonoma setServerUrl:@"https://in-integration.dev.avalanch.es/logs"];
-    [SNMSonoma start:@"200337f7-42a5-4811-969e-b97cbc47661e" withFeatures:@[[SNMAnalytics class], [SNMCrashes class]]];
+    [MSMobileCenter setServerUrl:@"https://in-integration.dev.avalanch.es"];
+    [MSMobileCenter start:@"200337f7-42a5-4811-969e-b97cbc47661e" withServices:@[
+                                                                                 [MSAnalytics class],
+                                                                                 [MSMCrashes class]
+                                                                                 ]];
   return YES;
 }
 
