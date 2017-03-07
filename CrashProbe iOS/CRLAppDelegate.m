@@ -33,8 +33,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [MSMobileCenter setLogUrl:@"https://in-staging-south-centralus.staging.avalanch.es"];
-    [MSMobileCenter start:@"6177b0e2-9650-42c3-be3d-2ed2837b0d35" withServices:@[[MSAnalytics class], [MSCrashes class]]];
+
+    [MSMobileCenter start:@"5505d5a0-4a17-446a-8e0d-7834b5f56bba" withServices:@[[MSAnalytics class], [MSCrashes class]]];
   return YES;
 }
 
