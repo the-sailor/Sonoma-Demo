@@ -34,7 +34,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 
-    [MSMobileCenter start:@"5505d5a0-4a17-446a-8e0d-7834b5f56bba" withServices:@[[MSAnalytics class], [MSCrashes class]]];
+    [MSMobileCenter setLogUrl:@"https://in-integration.dev.avalanch.es"];
+    [MSMobileCenter start:@"200337f7-42a5-4811-969e-b97cbc47661e" withServices:@[[MSAnalytics class], [MSCrashes class]]];
   return YES;
 }
 
