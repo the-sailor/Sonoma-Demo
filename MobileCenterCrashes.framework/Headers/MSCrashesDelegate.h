@@ -1,7 +1,3 @@
-/*
- * Copyright (c) Microsoft Corporation. All rights reserved.
- */
-
 #import <Foundation/Foundation.h>
 
 @class MSCrashes;
@@ -19,14 +15,6 @@
  * @param errorReport The errorReport that will be sent.
  */
 - (BOOL)crashes:(MSCrashes *)crashes shouldProcessErrorReport:(MSErrorReport *)errorReport;
-
-/**
- * Callback method that will get additional information to be attached to a error report before sending.
- * Attachement is an optional so the method can also return nil.
- * @param crashes The instance of MSCrashes.
- * @param errorReport The errorReport that will be sent.
- */
-- (MSErrorAttachment *)attachmentWithCrashes:(MSCrashes *)crashes forErrorReport:(MSErrorReport *)errorReport;
 
 /**
  * Callback method that will be called before each error will be send to the
