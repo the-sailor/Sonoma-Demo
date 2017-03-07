@@ -23,9 +23,9 @@
 		1ECAB6F01922B1C70005D14E /* 144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6EA1922B1C70005D14E /* 144x144.png */; };
 		1ECAB6F21922B49D0005D14E /* 80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6F11922B49D0005D14E /* 80x80.png */; };
 		1ECAB6F41922B4A30005D14E /* 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6F31922B4A30005D14E /* 120x120.png */; };
-		3427D67E1DA31A55008EDE7C /* SonomaAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3427D67B1DA31A55008EDE7C /* SonomaAnalytics.framework */; };
-		3427D67F1DA31A55008EDE7C /* SonomaCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3427D67C1DA31A55008EDE7C /* SonomaCore.framework */; };
-		3427D6801DA31A55008EDE7C /* SonomaCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3427D67D1DA31A55008EDE7C /* SonomaCrashes.framework */; };
+		8B1468BD1E6F2FB8001ED420 /* MobileCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1468BA1E6F2FB8001ED420 /* MobileCenter.framework */; };
+		8B1468BE1E6F2FB8001ED420 /* MobileCenterAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1468BB1E6F2FB8001ED420 /* MobileCenterAnalytics.framework */; };
+		8B1468BF1E6F2FB8001ED420 /* MobileCenterCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1468BC1E6F2FB8001ED420 /* MobileCenterCrashes.framework */; };
 		FA43921A170F134600801CAB /* CRLFakeCXXClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA439219170F134600801CAB /* CRLFakeCXXClass.mm */; };
 		FAAC52E71A030B9E00451D90 /* CRLCrashSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC52E61A030B9E00451D90 /* CRLCrashSwift.swift */; };
 		FAB374D116DBEAF00039B8AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB374D016DBEAF00039B8AE /* main.m */; };
@@ -223,9 +223,9 @@
 		1ECAB6EA1922B1C70005D14E /* 144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 144x144.png; sourceTree = "<group>"; };
 		1ECAB6F11922B49D0005D14E /* 80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80x80.png; sourceTree = "<group>"; };
 		1ECAB6F31922B4A30005D14E /* 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120x120.png; sourceTree = "<group>"; };
-		3427D67B1DA31A55008EDE7C /* SonomaAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SonomaAnalytics.framework; sourceTree = "<group>"; };
-		3427D67C1DA31A55008EDE7C /* SonomaCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SonomaCore.framework; sourceTree = "<group>"; };
-		3427D67D1DA31A55008EDE7C /* SonomaCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SonomaCrashes.framework; sourceTree = "<group>"; };
+		8B1468BA1E6F2FB8001ED420 /* MobileCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileCenter.framework; sourceTree = "<group>"; };
+		8B1468BB1E6F2FB8001ED420 /* MobileCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileCenterAnalytics.framework; sourceTree = "<group>"; };
+		8B1468BC1E6F2FB8001ED420 /* MobileCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileCenterCrashes.framework; sourceTree = "<group>"; };
 		FA4391E4170F113B00801CAB /* CrashLib-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrashLib-iOS-Info.plist"; sourceTree = "<group>"; };
 		FA4391E6170F113B00801CAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA4391E8170F113B00801CAB /* CrashLib-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrashLib-iOS-Prefix.pch"; sourceTree = "<group>"; };
@@ -336,10 +336,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAE024071A0322C3006CC3EE /* CrashLibiOS.framework in Frameworks */,
-				3427D67E1DA31A55008EDE7C /* SonomaAnalytics.framework in Frameworks */,
-				3427D67F1DA31A55008EDE7C /* SonomaCore.framework in Frameworks */,
 				1E77329B189B184800EB3F5A /* Foundation.framework in Frameworks */,
-				3427D6801DA31A55008EDE7C /* SonomaCrashes.framework in Frameworks */,
+				8B1468BE1E6F2FB8001ED420 /* MobileCenterAnalytics.framework in Frameworks */,
+				8B1468BF1E6F2FB8001ED420 /* MobileCenterCrashes.framework in Frameworks */,
+				8B1468BD1E6F2FB8001ED420 /* MobileCenter.framework in Frameworks */,
 				1E77329A189B184200EB3F5A /* UIKit.framework in Frameworks */,
 				1E773298189B183B00EB3F5A /* SystemConfiguration.framework in Frameworks */,
 			);
@@ -528,14 +528,14 @@
 		FAF9BCB716D2924500C8BB7D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8B1468BA1E6F2FB8001ED420 /* MobileCenter.framework */,
+				8B1468BB1E6F2FB8001ED420 /* MobileCenterAnalytics.framework */,
+				8B1468BC1E6F2FB8001ED420 /* MobileCenterCrashes.framework */,
 				1E77329E189B185500EB3F5A /* Security.framework */,
 				1E77329C189B184E00EB3F5A /* CoreGraphics.framework */,
 				1E773299189B184200EB3F5A /* UIKit.framework */,
 				1E773297189B183B00EB3F5A /* SystemConfiguration.framework */,
 				1E773295189B183300EB3F5A /* QuartzCore.framework */,
-				3427D67B1DA31A55008EDE7C /* SonomaAnalytics.framework */,
-				3427D67C1DA31A55008EDE7C /* SonomaCore.framework */,
-				3427D67D1DA31A55008EDE7C /* SonomaCrashes.framework */,
 				1E773293189B182C00EB3F5A /* CoreText.framework */,
 				1E773291189B17E800EB3F5A /* Foundation.framework */,
 				FAF9BCB816D2924500C8BB7D /* Cocoa.framework */,
@@ -1089,6 +1089,10 @@
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrashLib/CrashLib-Prefix.pch";
@@ -1111,6 +1115,10 @@
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrashLib/CrashLib-Prefix.pch";
